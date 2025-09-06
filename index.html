@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Name Input View -->
+    <div id="nameInputView" class="view active">
+        <div class="container">
+            <div class="content-card">
+                <div class="sorry-icon">💔</div>
+                <h1 class="main-title">I'm Sorry</h1>
+                <p class="subtitle">I need to apologize to you...</p>
+                
+                <form id="nameForm" class="name-form">
+                    <div class="form-group">
+                        <label for="nameInput" class="form-label">Please enter your name:</label>
+                        <input type="text" id="nameInput" class="form-control" placeholder="Your name" required>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--lg">Continue</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sorry Message View -->
+    <div id="sorryMessageView" class="view hidden">
+        <div class="container">
+            <div class="content-card">
+                <div class="back-button">
+                    <button id="backButton" class="btn btn--outline btn--sm">← Back</button>
+                </div>
+                
+                <div class="greeting-section">
+                    <h2 class="greeting">Hello, <span id="userName"></span></h2>
+                </div>
+                
+                <div class="message-section">
+                    <div class="sorry-message">
+                        <p>Sun , meku nai malum tu meku kaiku block kari ki , agar mere se galti hogayi tho sorry acahnak bina kuch bole ig pe block , snap pe block ya unfriend and naya acc banake use request bheja tho wahan se bhi block merku atleast wajah tho bol ki aakhir ye sab kaiku bolke mai terese unblock karo bolke nai mangleru , bas bolde ki kaiku kari block , thats it ye sab hogaya if you are serious agar ye prank niklaaa !!!! mai ter ghar aake gala dabadetu tera merese bura koi nai rahinga phir hopefully sarayyu teku ye batadeti hungi (thanks to her) Aur please bolde kaiku kari ki unblock ek kaam kar niche jo mera email hai uspe mail karde</p>
+                    </div>
+                    
+                    <div class="email-section">
+                        <p class="email-label">Please reach out to me:</p>
+                        <a href="mailto:mohdsohail6301886580@gmail.com" class="email-link" target="_blank">
+                            mohdsohail6301886580@gmail.com
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
